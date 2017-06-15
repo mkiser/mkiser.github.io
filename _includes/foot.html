@@ -37,7 +37,7 @@
   <script id="algolia__template--no-results" type="text/template">
     Fake news not found.
   </script>
-  
+
   <script src="{{ site.baseurl }}/public/js/anchor.min.js"></script>
   <script src="{{ site.baseurl }}/public/js/jquery.min.js"></script>
   <script src="{{ site.baseurl }}/public/js/algoliasearch.min.js"></script>
@@ -48,7 +48,7 @@
   <script src="{{ site.baseurl }}/public/js/jquery.scrolldepth.min.js"></script>
   <script src="{{ site.baseurl }}/public/js/riveted.min.js"></script>
   <script>riveted.init();</script>
-  
+
   <script>
   jQuery(function() {
     jQuery.scrollDepth({
@@ -57,10 +57,25 @@
     });
   });
   </script>
+  <script>
+    var now = moment();
+    var updatedAt = moment('{{site.time | date_to_xmlschema}}').fromNow();
+    var momentDom = document.getElementById('siteMoment');
+    momentDom.innerHTML = updatedAt;
+  </script>
   {% include clickEvent.html %}
   {% if page.layout == 'post' %}
     {% include h.html %}
     {% include anchors.html %}
   {% endif %}
+
+  {% if page.url == '/' %}
+    {% include js-index.html %}
+  {% endif %}
+
+  {% if page.class == 'post' %}
+    {% include js-post.html %}
+  {% endif %}
+
   </body>
 </html>
