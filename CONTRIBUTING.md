@@ -9,13 +9,12 @@ But it's not possible without your help. This guide is to help you, help me make
 - Submitting a fix
 - Proposing new features
 
-## How Can I Contribute?
+So, how can you contribute?
 
-### Copyediting 
 
-#### Before Submitting A Copyedit
+### Copyediting
 
-#### How To Submit A Copyedit
+[You can find instructions on submitting a copyedit here.][copyedit-how-to]
 
 ### Share WTF Just Happened Today
 
@@ -68,3 +67,5 @@ The Brigade is the WTF community committed to helping others contend with the da
 Invest in the continued production of WTF Just Happened Today by becoming a supporting member. Choose from three levels of monthly, recurring membership: [$5/mo](https://wtfjht.memberful.com/checkout?plan=26829&referrer=https%3A%2F%2Fwhatthefuckjusthappenedtoday.com%2F&utm_campaign=daily_update&utm_medium=social&utm_source=facebook&utm_term=0_9813b73b1a-4a7df0402b-), [$10/mo](https://wtfjht.memberful.com/checkout?plan=26830&referrer=https%3A%2F%2Fwhatthefuckjusthappenedtoday.com%2F&utm_campaign=daily_update&utm_medium=social&utm_source=facebook&utm_term=0_9813b73b1a-4a7df0402b-), or [$25/mo](https://wtfjht.memberful.com/checkout?plan=26831&referrer=https%3A%2F%2Fwhatthefuckjusthappenedtoday.com%2F&utm_campaign=daily_update&utm_medium=social&utm_source=facebook&utm_term=0_9813b73b1a-4a7df0402b-).
 
 Members of all levels will receive the monthly "What's up with WTF" newsletter, beta access to new features and tools, opportunities to help guide the future of WTF, and generally feeling good about supporting today's essential political newsletter and blog. 
+
+[copyedit-how-to]: ./docs/how-to-contribute-a-copyedit.md
